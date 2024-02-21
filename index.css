@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(211,68,68,0.1);
+    font-family: "Poppins";
+}
+.leftbox{
+    padding:40px;
+    position: relative;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.rightbox{
+    padding: 40px;
+    position: relative;
+    background-color: white;
+}
+.name h1{
+    color: white;
+    font-weight: 600;
+}
+.mail h2,p{
+    color:white;
+}
+.aboutme p{
+    text-transform: capitalize;
+}
+.rightbox h2,h3,p{
+    color:black;
+}
+.mail #no ,#mail{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.mail h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+.experience ol li{
+    margin-bottom: 10px;
+}
+.rightbox h2,h3{
+    text-transform: uppercase;
+}
+.rightbox p,li{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.hobbies ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
