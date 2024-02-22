@@ -20,7 +20,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(211,68,68,0.1);
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
+  font-weight: 60;
+  font-style: normal;
 }
 .leftbox{
     padding:40px;
